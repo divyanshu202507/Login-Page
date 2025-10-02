@@ -1,0 +1,28 @@
+/* Left Section */
+.left {
+  flex: 1;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+  margin-right: 50px ;
+  border-radius: 15px;
+}
+
+.left-title {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+.tagline {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.3);
+}

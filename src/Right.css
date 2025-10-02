@@ -1,0 +1,153 @@
+/* Full page background */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Gradient background */
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: Arial, sans-serif;
+}
+
+/* Login Box */
+.right-side {
+    max-height: 450px;
+    width: 420px;
+    backdrop-filter: blur(10px);
+ background: linear-gradient(135deg, #f8fafc, #e0e7ff);
+
+    
+
+    border-radius: 20px;
+    padding: 30px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Title */
+.right-side h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: 900;
+    color: #333;
+}
+
+/* Form */
+/* Form */
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* makes children centered */
+    width: 100%;
+}
+
+/* Input wrapper */
+.input-container {
+    position: relative;
+    width: 80%;
+    /* reduce width for better centering */
+    max-width: 280px;
+    margin: 0 auto 25px;
+    /* center horizontally + spacing */
+    display: flex;
+    align-items: center;
+}
+
+/* Inputs & Select */
+.input-container input,
+.input-container select {
+    width: 100%;
+    padding: 12px 12px 12px 38px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    outline: none;
+    background: #f9f9f9;
+    transition: 0.3s ease;
+    font-weight: 750;
+    color: black;
+    text-align: left;
+    /* keep text aligned properly */
+}
+
+
+/* Icon style */
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #555;
+    font-size: 16px;
+}
+
+
+
+/* Focus effect */
+.input-container input:focus,
+.input-container select:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 6px rgba(102, 126, 234, 0.5);
+}
+
+/* Button */
+.form button {
+    margin-top: 25px;
+    height: 40px;
+    width: 150px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.5);
+}
+
+.form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(102, 126, 234, 0.7);
+}
+
+
+.form button:active {
+    transform: scale(0.93);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.5);
+}
+
+/* Forgot password link */
+.form a {
+    margin-top: -5px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #667eea;
+    align-self: flex-end;
+    margin-right: 65px;
+    transition: color 0.3s;
+}
+
+.form a:hover {
+    color: #764ba2;
+}
+
+
+#role {
+    color: black;
+    font-size: 14px;
+    font-weight: 750;
+
+}
